@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: fileupdatestest-component
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads-stage/dev-release-team-tenant/fileupdatestest/fileupdatestest-component@sha256:b4118dc336ea2aaff4197fa333e6230de51b082c0f3dd01b86f3a0eac4f3f9ae
         name: my-python
         ports:
         - containerPort: 8081
